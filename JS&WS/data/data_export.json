@@ -1,0 +1,1633 @@
+[
+    {
+        "Champion Name": "Karthus",
+        "Win rate": "55.38%",
+        "Ban Rate": "34.5%",
+        "Matches": "6,936",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Brand",
+        "Win rate": "53.81%",
+        "Ban Rate": "12.9%",
+        "Matches": "5,610",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Akshan",
+        "Win rate": "53.81%",
+        "Ban Rate": "9.1%",
+        "Matches": "20,871",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Seraphine",
+        "Win rate": "53.52%",
+        "Ban Rate": "0.7%",
+        "Matches": "6,242",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Poppy",
+        "Win rate": "53.23%",
+        "Ban Rate": "3.8%",
+        "Matches": "10,638",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Cassiopeia",
+        "Win rate": "53.18%",
+        "Ban Rate": "2.3%",
+        "Matches": "12,686",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Pantheon",
+        "Win rate": "53.15%",
+        "Ban Rate": "1.5%",
+        "Matches": "4,399",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Cassiopeia",
+        "Win rate": "53.10%",
+        "Ban Rate": "2.3%",
+        "Matches": "5,431",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Akshan",
+        "Win rate": "53.09%",
+        "Ban Rate": "9.1%",
+        "Matches": "4,794",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Taric",
+        "Win rate": "53.07%",
+        "Ban Rate": "0.3%",
+        "Matches": "10,343",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Camille",
+        "Win rate": "52.75%",
+        "Ban Rate": "8.5%",
+        "Matches": "52,787",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Karthus",
+        "Win rate": "52.71%",
+        "Ban Rate": "34.5%",
+        "Matches": "53,954",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Rek'Sai",
+        "Win rate": "52.61%",
+        "Ban Rate": "3.9%",
+        "Matches": "24,535",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Kled",
+        "Win rate": "52.49%",
+        "Ban Rate": "0.9%",
+        "Matches": "11,780",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Rell",
+        "Win rate": "52.46%",
+        "Ban Rate": "2.1%",
+        "Matches": "29,480",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Taliyah",
+        "Win rate": "52.41%",
+        "Ban Rate": "10.1%",
+        "Matches": "40,324",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Jinx",
+        "Win rate": "52.33%",
+        "Ban Rate": "15.8%",
+        "Matches": "122,630",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Leona",
+        "Win rate": "52.30%",
+        "Ban Rate": "2.9%",
+        "Matches": "38,527",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Swain",
+        "Win rate": "52.27%",
+        "Ban Rate": "0.5%",
+        "Matches": "6,199",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Gragas",
+        "Win rate": "52.21%",
+        "Ban Rate": "3.6%",
+        "Matches": "4,859",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Fiddlesticks",
+        "Win rate": "52.17%",
+        "Ban Rate": "1.8%",
+        "Matches": "14,879",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Poppy",
+        "Win rate": "52.13%",
+        "Ban Rate": "3.8%",
+        "Matches": "10,650",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Vel'Koz",
+        "Win rate": "52.11%",
+        "Ban Rate": "0.3%",
+        "Matches": "8,640",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Gwen",
+        "Win rate": "52.05%",
+        "Ban Rate": "2.0%",
+        "Matches": "17,121",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Vex",
+        "Win rate": "52.05%",
+        "Ban Rate": "2.5%",
+        "Matches": "16,532",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Rumble",
+        "Win rate": "52.00%",
+        "Ban Rate": "5.4%",
+        "Matches": "4,627",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Ashe",
+        "Win rate": "51.89%",
+        "Ban Rate": "4.9%",
+        "Matches": "51,036",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Braum",
+        "Win rate": "51.80%",
+        "Ban Rate": "2.4%",
+        "Matches": "33,044",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Zoe",
+        "Win rate": "51.79%",
+        "Ban Rate": "1.2%",
+        "Matches": "13,551",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Twisted Fate",
+        "Win rate": "51.78%",
+        "Ban Rate": "3.2%",
+        "Matches": "31,581",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Riven",
+        "Win rate": "51.75%",
+        "Ban Rate": "1.9%",
+        "Matches": "26,705",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Annie",
+        "Win rate": "51.74%",
+        "Ban Rate": "0.5%",
+        "Matches": "10,142",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Tryndamere",
+        "Win rate": "51.72%",
+        "Ban Rate": "2.4%",
+        "Matches": "18,667",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Rengar",
+        "Win rate": "51.70%",
+        "Ban Rate": "7.6%",
+        "Matches": "3,627",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Yorick",
+        "Win rate": "51.67%",
+        "Ban Rate": "1.8%",
+        "Matches": "12,244",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Irelia",
+        "Win rate": "51.65%",
+        "Ban Rate": "10.7%",
+        "Matches": "26,304",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Skarner",
+        "Win rate": "51.64%",
+        "Ban Rate": "30.9%",
+        "Matches": "18,332",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Kog'Maw",
+        "Win rate": "51.64%",
+        "Ban Rate": "1.3%",
+        "Matches": "17,354",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Tahm Kench",
+        "Win rate": "51.62%",
+        "Ban Rate": "0.7%",
+        "Matches": "12,116",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Jhin",
+        "Win rate": "51.61%",
+        "Ban Rate": "4.0%",
+        "Matches": "122,237",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Udyr",
+        "Win rate": "51.59%",
+        "Ban Rate": "1.2%",
+        "Matches": "12,526",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Gragas",
+        "Win rate": "51.58%",
+        "Ban Rate": "3.6%",
+        "Matches": "22,155",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Fiora",
+        "Win rate": "51.58%",
+        "Ban Rate": "10.0%",
+        "Matches": "28,623",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Xerath",
+        "Win rate": "51.56%",
+        "Ban Rate": "4.4%",
+        "Matches": "18,616",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Sona",
+        "Win rate": "51.54%",
+        "Ban Rate": "0.2%",
+        "Matches": "20,352",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Warwick",
+        "Win rate": "51.51%",
+        "Ban Rate": "0.6%",
+        "Matches": "7,371",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Kennen",
+        "Win rate": "51.47%",
+        "Ban Rate": "1.4%",
+        "Matches": "13,464",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Samira",
+        "Win rate": "51.47%",
+        "Ban Rate": "23.9%",
+        "Matches": "65,334",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Zac",
+        "Win rate": "51.46%",
+        "Ban Rate": "4.3%",
+        "Matches": "11,508",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Ekko",
+        "Win rate": "51.45%",
+        "Ban Rate": "1.4%",
+        "Matches": "12,544",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Blitzcrank",
+        "Win rate": "51.45%",
+        "Ban Rate": "29.6%",
+        "Matches": "42,016",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Skarner",
+        "Win rate": "51.44%",
+        "Ban Rate": "30.9%",
+        "Matches": "3,011",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Rammus",
+        "Win rate": "51.43%",
+        "Ban Rate": "4.7%",
+        "Matches": "10,118",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Xin Zhao",
+        "Win rate": "51.42%",
+        "Ban Rate": "1.4%",
+        "Matches": "30,719",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Irelia",
+        "Win rate": "51.42%",
+        "Ban Rate": "10.7%",
+        "Matches": "21,608",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Galio",
+        "Win rate": "51.42%",
+        "Ban Rate": "1.1%",
+        "Matches": "16,561",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Nidalee",
+        "Win rate": "51.41%",
+        "Ban Rate": "6.5%",
+        "Matches": "43,101",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Anivia",
+        "Win rate": "51.41%",
+        "Ban Rate": "1.9%",
+        "Matches": "12,615",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Lux",
+        "Win rate": "51.39%",
+        "Ban Rate": "3.0%",
+        "Matches": "27,138",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Diana",
+        "Win rate": "51.38%",
+        "Ban Rate": "3.1%",
+        "Matches": "16,528",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Skarner",
+        "Win rate": "51.37%",
+        "Ban Rate": "30.9%",
+        "Matches": "19,615",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Morgana",
+        "Win rate": "51.36%",
+        "Ban Rate": "14.6%",
+        "Matches": "6,567",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Shen",
+        "Win rate": "51.34%",
+        "Ban Rate": "0.6%",
+        "Matches": "19,569",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Gwen",
+        "Win rate": "51.32%",
+        "Ban Rate": "2.0%",
+        "Matches": "2,950",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Ivern",
+        "Win rate": "51.31%",
+        "Ban Rate": "0.9%",
+        "Matches": "12,827",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Tahm Kench",
+        "Win rate": "51.28%",
+        "Ban Rate": "0.7%",
+        "Matches": "4,481",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Gragas",
+        "Win rate": "51.27%",
+        "Ban Rate": "3.6%",
+        "Matches": "18,973",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Qiyana",
+        "Win rate": "51.26%",
+        "Ban Rate": "1.2%",
+        "Matches": "15,051",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Jarvan IV",
+        "Win rate": "51.25%",
+        "Ban Rate": "1.1%",
+        "Matches": "28,635",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Brand",
+        "Win rate": "51.25%",
+        "Ban Rate": "12.9%",
+        "Matches": "26,944",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Kindred",
+        "Win rate": "51.25%",
+        "Ban Rate": "4.7%",
+        "Matches": "27,751",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Taliyah",
+        "Win rate": "51.22%",
+        "Ban Rate": "10.1%",
+        "Matches": "28,960",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Neeko",
+        "Win rate": "51.21%",
+        "Ban Rate": "1.1%",
+        "Matches": "5,081",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Galio",
+        "Win rate": "51.20%",
+        "Ban Rate": "1.1%",
+        "Matches": "3,002",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Twisted Fate",
+        "Win rate": "51.19%",
+        "Ban Rate": "3.2%",
+        "Matches": "9,453",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Pyke",
+        "Win rate": "51.15%",
+        "Ban Rate": "20.6%",
+        "Matches": "46,352",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Lillia",
+        "Win rate": "51.15%",
+        "Ban Rate": "6.2%",
+        "Matches": "46,084",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Talon",
+        "Win rate": "51.12%",
+        "Ban Rate": "0.9%",
+        "Matches": "13,428",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Sett",
+        "Win rate": "51.10%",
+        "Ban Rate": "1.9%",
+        "Matches": "44,696",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Ekko",
+        "Win rate": "51.08%",
+        "Ban Rate": "1.4%",
+        "Matches": "20,982",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Rakan",
+        "Win rate": "51.05%",
+        "Ban Rate": "1.6%",
+        "Matches": "37,284",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Quinn",
+        "Win rate": "51.01%",
+        "Ban Rate": "0.7%",
+        "Matches": "7,836",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Olaf",
+        "Win rate": "50.99%",
+        "Ban Rate": "2.2%",
+        "Matches": "10,562",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Urgot",
+        "Win rate": "50.99%",
+        "Ban Rate": "1.0%",
+        "Matches": "18,136",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Nunu & Willump",
+        "Win rate": "50.95%",
+        "Ban Rate": "0.4%",
+        "Matches": "12,223",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Udyr",
+        "Win rate": "50.93%",
+        "Ban Rate": "1.2%",
+        "Matches": "5,162",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Teemo",
+        "Win rate": "50.92%",
+        "Ban Rate": "1.9%",
+        "Matches": "12,823",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Wukong",
+        "Win rate": "50.91%",
+        "Ban Rate": "0.4%",
+        "Matches": "6,930",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Janna",
+        "Win rate": "50.90%",
+        "Ban Rate": "6.7%",
+        "Matches": "40,813",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Soraka",
+        "Win rate": "50.88%",
+        "Ban Rate": "1.5%",
+        "Matches": "31,703",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Kayle",
+        "Win rate": "50.88%",
+        "Ban Rate": "1.5%",
+        "Matches": "21,618",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Nilah",
+        "Win rate": "50.88%",
+        "Ban Rate": "4.7%",
+        "Matches": "10,875",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Ziggs",
+        "Win rate": "50.88%",
+        "Ban Rate": "0.1%",
+        "Matches": "3,025",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Shaco",
+        "Win rate": "50.87%",
+        "Ban Rate": "18.1%",
+        "Matches": "30,951",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Warwick",
+        "Win rate": "50.85%",
+        "Ban Rate": "0.6%",
+        "Matches": "11,088",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Twitch",
+        "Win rate": "50.81%",
+        "Ban Rate": "7.4%",
+        "Matches": "38,302",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Amumu",
+        "Win rate": "50.81%",
+        "Ban Rate": "0.7%",
+        "Matches": "14,105",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Zac",
+        "Win rate": "50.80%",
+        "Ban Rate": "4.3%",
+        "Matches": "4,575",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Syndra",
+        "Win rate": "50.78%",
+        "Ban Rate": "2.0%",
+        "Matches": "27,320",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Mordekaiser",
+        "Win rate": "50.78%",
+        "Ban Rate": "10.1%",
+        "Matches": "34,514",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Alistar",
+        "Win rate": "50.74%",
+        "Ban Rate": "2.3%",
+        "Matches": "28,866",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Jax",
+        "Win rate": "50.71%",
+        "Ban Rate": "14.3%",
+        "Matches": "11,610",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Rumble",
+        "Win rate": "50.68%",
+        "Ban Rate": "5.4%",
+        "Matches": "18,247",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Maokai",
+        "Win rate": "50.68%",
+        "Ban Rate": "0.8%",
+        "Matches": "11,659",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Volibear",
+        "Win rate": "50.68%",
+        "Ban Rate": "2.0%",
+        "Matches": "11,764",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Caitlyn",
+        "Win rate": "50.68%",
+        "Ban Rate": "12.2%",
+        "Matches": "108,471",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Malphite",
+        "Win rate": "50.65%",
+        "Ban Rate": "11.9%",
+        "Matches": "28,327",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Kayle",
+        "Win rate": "50.65%",
+        "Ban Rate": "1.5%",
+        "Matches": "3,854",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Thresh",
+        "Win rate": "50.63%",
+        "Ban Rate": "6.4%",
+        "Matches": "86,968",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Tristana",
+        "Win rate": "50.63%",
+        "Ban Rate": "4.8%",
+        "Matches": "24,896",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Nocturne",
+        "Win rate": "50.58%",
+        "Ban Rate": "3.6%",
+        "Matches": "18,731",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Sylas",
+        "Win rate": "50.56%",
+        "Ban Rate": "9.5%",
+        "Matches": "4,199",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Miss Fortune",
+        "Win rate": "50.53%",
+        "Ban Rate": "0.5%",
+        "Matches": "23,410",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Viktor",
+        "Win rate": "50.53%",
+        "Ban Rate": "1.3%",
+        "Matches": "25,462",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Zac",
+        "Win rate": "50.41%",
+        "Ban Rate": "4.3%",
+        "Matches": "20,785",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Wukong",
+        "Win rate": "50.40%",
+        "Ban Rate": "0.4%",
+        "Matches": "9,028",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Hwei",
+        "Win rate": "50.40%",
+        "Ban Rate": "20.0%",
+        "Matches": "60,914",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Nautilus",
+        "Win rate": "50.38%",
+        "Ban Rate": "18.9%",
+        "Matches": "81,869",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Vel'Koz",
+        "Win rate": "50.37%",
+        "Ban Rate": "0.3%",
+        "Matches": "12,120",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Akali",
+        "Win rate": "50.37%",
+        "Ban Rate": "18.3%",
+        "Matches": "41,687",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Elise",
+        "Win rate": "50.34%",
+        "Ban Rate": "1.2%",
+        "Matches": "12,286",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Jax",
+        "Win rate": "50.30%",
+        "Ban Rate": "14.3%",
+        "Matches": "34,871",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Seraphine",
+        "Win rate": "50.28%",
+        "Ban Rate": "0.7%",
+        "Matches": "18,109",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Bard",
+        "Win rate": "50.27%",
+        "Ban Rate": "0.5%",
+        "Matches": "17,657",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Renekton",
+        "Win rate": "50.23%",
+        "Ban Rate": "5.5%",
+        "Matches": "39,557",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Bel'Veth",
+        "Win rate": "50.23%",
+        "Ban Rate": "11.6%",
+        "Matches": "22,036",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Nami",
+        "Win rate": "50.21%",
+        "Ban Rate": "1.0%",
+        "Matches": "70,676",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Sylas",
+        "Win rate": "50.21%",
+        "Ban Rate": "9.5%",
+        "Matches": "40,760",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Brand",
+        "Win rate": "50.19%",
+        "Ban Rate": "12.9%",
+        "Matches": "31,872",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Xerath",
+        "Win rate": "50.19%",
+        "Ban Rate": "4.4%",
+        "Matches": "17,562",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Milio",
+        "Win rate": "50.18%",
+        "Ban Rate": "4.4%",
+        "Matches": "47,765",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Neeko",
+        "Win rate": "50.18%",
+        "Ban Rate": "1.1%",
+        "Matches": "11,092",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Tristana",
+        "Win rate": "50.14%",
+        "Ban Rate": "4.8%",
+        "Matches": "43,445",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Vayne",
+        "Win rate": "50.13%",
+        "Ban Rate": "11.2%",
+        "Matches": "22,484",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Ahri",
+        "Win rate": "50.09%",
+        "Ban Rate": "9.7%",
+        "Matches": "67,562",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Hecarim",
+        "Win rate": "50.06%",
+        "Ban Rate": "2.3%",
+        "Matches": "21,797",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Malzahar",
+        "Win rate": "50.05%",
+        "Ban Rate": "3.9%",
+        "Matches": "24,057",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Zilean",
+        "Win rate": "50.00%",
+        "Ban Rate": "0.6%",
+        "Matches": "13,023",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Camille",
+        "Win rate": "49.99%",
+        "Ban Rate": "8.5%",
+        "Matches": "12,490",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Heimerdinger",
+        "Win rate": "49.99%",
+        "Ban Rate": "0.5%",
+        "Matches": "4,105",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Malphite",
+        "Win rate": "49.97%",
+        "Ban Rate": "11.9%",
+        "Matches": "9,905",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Garen",
+        "Win rate": "49.86%",
+        "Ban Rate": "2.2%",
+        "Matches": "28,999",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Pantheon",
+        "Win rate": "49.83%",
+        "Ban Rate": "1.5%",
+        "Matches": "11,789",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Viego",
+        "Win rate": "49.70%",
+        "Ban Rate": "8.7%",
+        "Matches": "86,128",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Fizz",
+        "Win rate": "49.65%",
+        "Ban Rate": "5.2%",
+        "Matches": "16,848",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Talon",
+        "Win rate": "49.64%",
+        "Ban Rate": "0.9%",
+        "Matches": "7,436",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Volibear",
+        "Win rate": "49.61%",
+        "Ban Rate": "2.0%",
+        "Matches": "15,848",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Aatrox",
+        "Win rate": "49.60%",
+        "Ban Rate": "12.4%",
+        "Matches": "58,321",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Veigar",
+        "Win rate": "49.57%",
+        "Ban Rate": "1.0%",
+        "Matches": "18,332",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Lucian",
+        "Win rate": "49.55%",
+        "Ban Rate": "7.6%",
+        "Matches": "91,067",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Darius",
+        "Win rate": "49.52%",
+        "Ban Rate": "20.0%",
+        "Matches": "44,860",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Illaoi",
+        "Win rate": "49.43%",
+        "Ban Rate": "5.8%",
+        "Matches": "14,039",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Draven",
+        "Win rate": "49.35%",
+        "Ban Rate": "41.1%",
+        "Matches": "56,848",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Akali",
+        "Win rate": "49.33%",
+        "Ban Rate": "18.3%",
+        "Matches": "15,488",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Zyra",
+        "Win rate": "49.33%",
+        "Ban Rate": "3.5%",
+        "Matches": "23,365",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Renata Glasc",
+        "Win rate": "49.30%",
+        "Ban Rate": "0.4%",
+        "Matches": "13,312",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Yasuo",
+        "Win rate": "49.30%",
+        "Ban Rate": "18.4%",
+        "Matches": "4,637",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Vi",
+        "Win rate": "49.27%",
+        "Ban Rate": "2.3%",
+        "Matches": "29,678",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Diana",
+        "Win rate": "49.26%",
+        "Ban Rate": "3.1%",
+        "Matches": "29,961",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Lux",
+        "Win rate": "49.20%",
+        "Ban Rate": "3.0%",
+        "Matches": "34,889",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Trundle",
+        "Win rate": "49.19%",
+        "Ban Rate": "1.7%",
+        "Matches": "10,256",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "LeBlanc",
+        "Win rate": "49.18%",
+        "Ban Rate": "11.8%",
+        "Matches": "29,678",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Lulu",
+        "Win rate": "49.17%",
+        "Ban Rate": "8.2%",
+        "Matches": "65,739",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Zed",
+        "Win rate": "49.16%",
+        "Ban Rate": "19.6%",
+        "Matches": "36,686",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Gnar",
+        "Win rate": "49.14%",
+        "Ban Rate": "0.4%",
+        "Matches": "15,371",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Ryze",
+        "Win rate": "49.10%",
+        "Ban Rate": "0.2%",
+        "Matches": "3,238",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Viego",
+        "Win rate": "49.04%",
+        "Ban Rate": "8.7%",
+        "Matches": "8,244",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Kalista",
+        "Win rate": "49.04%",
+        "Ban Rate": "2.7%",
+        "Matches": "23,683",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Ornn",
+        "Win rate": "49.03%",
+        "Ban Rate": "0.4%",
+        "Matches": "21,760",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Vayne",
+        "Win rate": "49.01%",
+        "Ban Rate": "11.2%",
+        "Matches": "27,287",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Shaco",
+        "Win rate": "49.01%",
+        "Ban Rate": "18.1%",
+        "Matches": "9,168",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Evelynn",
+        "Win rate": "48.95%",
+        "Ban Rate": "9.0%",
+        "Matches": "16,308",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Sivir",
+        "Win rate": "48.90%",
+        "Ban Rate": "0.4%",
+        "Matches": "16,547",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Kha'Zix",
+        "Win rate": "48.85%",
+        "Ban Rate": "5.4%",
+        "Matches": "40,294",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Katarina",
+        "Win rate": "48.83%",
+        "Ban Rate": "8.8%",
+        "Matches": "37,403",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Vladimir",
+        "Win rate": "48.81%",
+        "Ban Rate": "3.6%",
+        "Matches": "14,372",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Kassadin",
+        "Win rate": "48.80%",
+        "Ban Rate": "8.5%",
+        "Matches": "18,146",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Ziggs",
+        "Win rate": "48.77%",
+        "Ban Rate": "0.1%",
+        "Matches": "3,816",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Xayah",
+        "Win rate": "48.77%",
+        "Ban Rate": "0.7%",
+        "Matches": "23,110",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Vladimir",
+        "Win rate": "48.76%",
+        "Ban Rate": "3.6%",
+        "Matches": "5,347",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Singed",
+        "Win rate": "48.74%",
+        "Ban Rate": "0.3%",
+        "Matches": "7,992",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Poppy",
+        "Win rate": "48.73%",
+        "Ban Rate": "3.8%",
+        "Matches": "11,579",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Shyvana",
+        "Win rate": "48.73%",
+        "Ban Rate": "0.2%",
+        "Matches": "6,674",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Yasuo",
+        "Win rate": "48.62%",
+        "Ban Rate": "18.4%",
+        "Matches": "43,447",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Sejuani",
+        "Win rate": "48.62%",
+        "Ban Rate": "0.3%",
+        "Matches": "16,274",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Cho'Gath",
+        "Win rate": "48.59%",
+        "Ban Rate": "0.3%",
+        "Matches": "8,289",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Lissandra",
+        "Win rate": "48.56%",
+        "Ban Rate": "1.2%",
+        "Matches": "13,901",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Briar",
+        "Win rate": "48.55%",
+        "Ban Rate": "6.8%",
+        "Matches": "14,262",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Ryze",
+        "Win rate": "48.53%",
+        "Ban Rate": "0.2%",
+        "Matches": "8,318",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Dr. Mundo",
+        "Win rate": "48.53%",
+        "Ban Rate": "1.5%",
+        "Matches": "20,147",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Graves",
+        "Win rate": "48.52%",
+        "Ban Rate": "3.4%",
+        "Matches": "40,336",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Kayn",
+        "Win rate": "48.50%",
+        "Ban Rate": "5.1%",
+        "Matches": "28,692",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Kai'Sa",
+        "Win rate": "48.41%",
+        "Ban Rate": "1.7%",
+        "Matches": "75,251",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Orianna",
+        "Win rate": "48.41%",
+        "Ban Rate": "1.0%",
+        "Matches": "27,653",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Aurelion Sol",
+        "Win rate": "48.39%",
+        "Ban Rate": "6.5%",
+        "Matches": "36,184",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Jayce",
+        "Win rate": "48.38%",
+        "Ban Rate": "4.0%",
+        "Matches": "25,341",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Ashe",
+        "Win rate": "48.31%",
+        "Ban Rate": "4.9%",
+        "Matches": "19,549",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Rengar",
+        "Win rate": "48.31%",
+        "Ban Rate": "7.6%",
+        "Matches": "18,494",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Corki",
+        "Win rate": "48.30%",
+        "Ban Rate": "2.6%",
+        "Matches": "27,933",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Jayce",
+        "Win rate": "48.26%",
+        "Ban Rate": "4.0%",
+        "Matches": "10,636",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Senna",
+        "Win rate": "48.26%",
+        "Ban Rate": "3.0%",
+        "Matches": "32,557",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Sion",
+        "Win rate": "48.25%",
+        "Ban Rate": "0.6%",
+        "Matches": "20,834",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Morgana",
+        "Win rate": "48.23%",
+        "Ban Rate": "14.6%",
+        "Matches": "19,838",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Naafiri",
+        "Win rate": "48.23%",
+        "Ban Rate": "0.5%",
+        "Matches": "4,402",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Rumble",
+        "Win rate": "48.11%",
+        "Ban Rate": "5.4%",
+        "Matches": "2,962",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Nasus",
+        "Win rate": "48.02%",
+        "Ban Rate": "2.6%",
+        "Matches": "17,251",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Varus",
+        "Win rate": "48.00%",
+        "Ban Rate": "1.4%",
+        "Matches": "34,453",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Hwei",
+        "Win rate": "47.85%",
+        "Ban Rate": "20.0%",
+        "Matches": "11,703",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Varus",
+        "Win rate": "47.80%",
+        "Ban Rate": "1.4%",
+        "Matches": "3,234",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Lee Sin",
+        "Win rate": "47.71%",
+        "Ban Rate": "15.2%",
+        "Matches": "103,121",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Karma",
+        "Win rate": "47.64%",
+        "Ban Rate": "3.1%",
+        "Matches": "33,139",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Sylas",
+        "Win rate": "47.58%",
+        "Ban Rate": "9.5%",
+        "Matches": "2,978",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Pantheon",
+        "Win rate": "47.55%",
+        "Ban Rate": "1.5%",
+        "Matches": "8,895",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Viego",
+        "Win rate": "47.12%",
+        "Ban Rate": "8.7%",
+        "Matches": "7,271",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Zeri",
+        "Win rate": "47.10%",
+        "Ban Rate": "1.7%",
+        "Matches": "28,882",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Master Yi",
+        "Win rate": "46.95%",
+        "Ban Rate": "8.4%",
+        "Matches": "19,632",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Ezreal",
+        "Win rate": "46.74%",
+        "Ban Rate": "3.5%",
+        "Matches": "49,180",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Brand",
+        "Win rate": "46.73%",
+        "Ban Rate": "12.9%",
+        "Matches": "19,218",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Yone",
+        "Win rate": "46.68%",
+        "Ban Rate": "9.2%",
+        "Matches": "26,839",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Yuumi",
+        "Win rate": "46.58%",
+        "Ban Rate": "5.3%",
+        "Matches": "25,624",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Aphelios",
+        "Win rate": "46.46%",
+        "Ban Rate": "2.1%",
+        "Matches": "58,690",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Gangplank",
+        "Win rate": "46.44%",
+        "Ban Rate": "1.3%",
+        "Matches": "17,311",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Sylas",
+        "Win rate": "46.23%",
+        "Ban Rate": "9.5%",
+        "Matches": "14,533",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Swain",
+        "Win rate": "46.19%",
+        "Ban Rate": "0.5%",
+        "Matches": "7,960",
+        "Role": "SUPP"
+    },
+    {
+        "Champion Name": "Zed",
+        "Win rate": "46.15%",
+        "Ban Rate": "19.6%",
+        "Matches": "4,037",
+        "Role": "JUNGLE"
+    },
+    {
+        "Champion Name": "Yone",
+        "Win rate": "46.06%",
+        "Ban Rate": "9.2%",
+        "Matches": "25,166",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Yasuo",
+        "Win rate": "45.93%",
+        "Ban Rate": "18.4%",
+        "Matches": "10,260",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Azir",
+        "Win rate": "45.71%",
+        "Ban Rate": "0.8%",
+        "Matches": "19,098",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Lucian",
+        "Win rate": "45.33%",
+        "Ban Rate": "7.6%",
+        "Matches": "4,355",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "K'Sante",
+        "Win rate": "45.16%",
+        "Ban Rate": "4.9%",
+        "Matches": "44,144",
+        "Role": "TOP"
+    },
+    {
+        "Champion Name": "Corki",
+        "Win rate": "44.66%",
+        "Ban Rate": "2.6%",
+        "Matches": "19,068",
+        "Role": "MID"
+    },
+    {
+        "Champion Name": "Smolder",
+        "Win rate": "43.46%",
+        "Ban Rate": "2.4%",
+        "Matches": "13,773",
+        "Role": "ADC"
+    },
+    {
+        "Champion Name": "Shen",
+        "Win rate": "42.84%",
+        "Ban Rate": "0.6%",
+        "Matches": "3,609",
+        "Role": "JUNGLE"
+    }
+]
