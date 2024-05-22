@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:video_player/video_player.dart';
-import 'package:http/http.dart' as http; // Importez le package http
+import 'package:http/http.dart' as http;
 import 'compteur2status.dart';
 import 'champions_page.dart';
 import 'graph.dart';
@@ -22,6 +22,8 @@ class _HomePageState extends State<HomePage> {
   Map<String, dynamic> data = {};
   bool _isVideoFinished = false;
   List<Champion> champions = [];
+  List<Champion> top3Champions = [];
+  List<Champion> bottom3Champions = [];
   bool isLoading = true;
 
   @override
@@ -44,6 +46,7 @@ class _HomePageState extends State<HomePage> {
     });
     loadData();
     loadChampions();
+    loadTopBottomChampions();
   }
 
   Future<void> loadData() async {
@@ -78,6 +81,34 @@ class _HomePageState extends State<HomePage> {
       }
     } catch (e) {
       // Gérer les erreurs de connexion ici
+      setState(() {
+        isLoading = false;
+      });
+    }
+  }
+
+  Future<void> loadTopBottomChampions() async {
+    setState(() => isLoading = true);
+    try {
+      final response = await http
+          .get(Uri.parse('http://localhost:3000/tierlist/top-bottom'));
+      if (response.statusCode == 200) {
+        final result = json.decode(response.body);
+        setState(() {
+          top3Champions = (result['top3'] as List)
+              .map((jsonChampion) => Champion.fromJson(jsonChampion))
+              .toList();
+          bottom3Champions = (result['bottom3'] as List)
+              .map((jsonChampion) => Champion.fromJson(jsonChampion))
+              .toList();
+          isLoading = false;
+        });
+      } else {
+        setState(() {
+          isLoading = false;
+        });
+      }
+    } catch (e) {
       setState(() {
         isLoading = false;
       });
@@ -140,12 +171,10 @@ class _HomePageState extends State<HomePage> {
             top: 10,
             left: 410,
             child: buff.StatusBar(buffNerfData: {
-              'assets/champ/Skarner.webp': 'assets/up.png',
-              'assets/champ/Smolder.webp': 'assets/up.png',
-              'assets/champ/Corki.webp': 'assets/up.png',
-              'assets/champ/Rek\'sai.webp': 'assets/down.png',
-              'assets/champ/Poppy.webp': 'assets/down.png',
-              'assets/champ/Nilah.webp': 'assets/down.png',
+              for (var champ in top3Champions)
+                'assets/champ/${champ.name}.webp': 'assets/up.png',
+              for (var champ in bottom3Champions)
+                'assets/champ/${champ.name}.webp': 'assets/down.png',
             }),
           ),
           Positioned(
@@ -166,18 +195,16 @@ class _HomePageState extends State<HomePage> {
               : Positioned(
                   bottom: 10,
                   left: 410,
-                  child: isLoading
-                      ? CircularProgressIndicator()
-                      : GestureDetector(
-                          onTap: () {
-                            Navigator.of(context).push(
-                              MaterialPageRoute(
-                                builder: (context) => ChampionsPage(),
-                              ),
-                            );
-                          },
-                          child: ChampionsTable(champions: champions),
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => ChampionsPage(),
                         ),
+                      );
+                    },
+                    child: ChampionsTable(champions: champions),
+                  ),
                 ),
           Positioned(
               bottom: 10,
