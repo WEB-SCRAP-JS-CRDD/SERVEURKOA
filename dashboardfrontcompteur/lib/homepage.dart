@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:video_player/video_player.dart';
+import 'package:http/http.dart' as http; // Importez le package http
 import 'compteur2status.dart';
 import 'champions_page.dart';
 import 'graph.dart';
@@ -54,17 +55,33 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> loadChampions() async {
-    final String response =
-        await rootBundle.loadString('assets/data_export.json');
-    final List<dynamic> data = await json.decode(response);
-    setState(() {
-      champions = data
-          .map((jsonChampion) => Champion.fromJson(jsonChampion))
-          .where((champion) => champion.role.toUpperCase() == 'SUPP')
-          .take(5)
-          .toList();
-      isLoading = false;
-    });
+    setState(() => isLoading = true);
+    try {
+      final response =
+          await http.get(Uri.parse('http://localhost:3000/tierlist'));
+      if (response.statusCode == 200) {
+        final data = json.decode(response.body) as List;
+        setState(() {
+          champions = data
+              .map((jsonChampion) =>
+                  Champion.fromJson(jsonChampion as Map<String, dynamic>))
+              .where((champion) => champion.role.toUpperCase() == 'SUPP')
+              .take(5)
+              .toList();
+          isLoading = false;
+        });
+      } else {
+        // Gérer les erreurs du serveur ici
+        setState(() {
+          isLoading = false;
+        });
+      }
+    } catch (e) {
+      // Gérer les erreurs de connexion ici
+      setState(() {
+        isLoading = false;
+      });
+    }
   }
 
   @override
@@ -317,16 +334,6 @@ class ChampionsTable extends StatelessWidget {
                             style: GoogleFonts.tiroDevanagariHindi(
                                 color: AppColors.front, fontSize: 22))),
                       ],
-/*                  onSelectChanged: (bool? selected) {
-                    if (selected != null && selected) {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) =>
-                                ChampionsPage()), // Redirige vers la page des champions.
-                      );
-                    }
-                  },*/
                     ),
                   )
                   .toList(),

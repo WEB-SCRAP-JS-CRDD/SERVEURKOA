@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:http/http.dart' as http; // Importez le package http
 
 String getIconName(String role) {
   switch (role.toUpperCase()) {
@@ -63,90 +64,95 @@ class _ChampionsPageState extends State<ChampionsPage> {
   final double iconSize = 32.0;
   final TextStyle textStyle = TextStyle(fontSize: 22);
   final TextEditingController _searchController = TextEditingController();
+  Timer? _debounce;
+  bool _initialSearchDone = false;
 
   @override
   void initState() {
     super.initState();
     loadChampions();
-    _searchController.addListener(_filterChampionsByName);
+    _searchController.addListener(_onSearchChanged);
   }
 
   Future<void> loadChampions() async {
     setState(() => isLoading = true);
-    //await Future.delayed(
-    //    Duration(seconds: 2)); // Simule un chargement de 5 secondes
+    try {
+      final response = await http.get(Uri.parse(
+          'http://localhost:3000/tierlist?role=${selectedRole != 'All' ? selectedRole : ''}&sortColumn=${sortColumnIndex != null ? _getSortColumnName(sortColumnIndex!) : ''}&sortOrder=${isAscending ? 'asc' : 'desc'}&searchQuery=${_searchController.text}'));
+      if (response.statusCode == 200) {
+        final data = json.decode(response.body) as List;
+        setState(() {
+          champions = data
+              .map((jsonChampion) =>
+                  Champion.fromJson(jsonChampion as Map<String, dynamic>))
+              .toList();
+          filteredChampions = champions;
+          isLoading = false;
+        });
+      } else {
+        setState(() {
+          isLoading = false;
+        });
+      }
+    } catch (e) {
+      setState(() {
+        isLoading = false;
+      });
+    }
+  }
 
-    final String response =
-        await rootBundle.loadString('assets/data_export.json');
-    final data = json.decode(response) as List;
+  void _onSearchChanged() {
+    if (_initialSearchDone) {
+      if (_debounce?.isActive ?? false) _debounce!.cancel();
+      _debounce = Timer(const Duration(milliseconds: 500), () {
+        loadChampions();
+      });
+    } else {
+      _initialSearchDone = true;
+      loadChampions();
+    }
+  }
 
+  String _getSortColumnName(int columnIndex) {
+    switch (columnIndex) {
+      case 0:
+        return 'Champion Name';
+      case 1:
+        return 'Win rate';
+      case 2:
+        return 'Ban Rate';
+      case 3:
+        return 'Matches';
+      default:
+        return '';
+    }
+  }
+
+  void onSort(int columnIndex, bool ascending) {
     setState(() {
-      champions = data
-          .map((jsonChampion) =>
-              Champion.fromJson(jsonChampion as Map<String, dynamic>))
-          .toList();
-      filteredChampions = champions;
-      isLoading = false;
+      sortColumnIndex = columnIndex;
+      isAscending = ascending;
+      loadChampions();
+    });
+  }
+
+  void filterChampions(String role) {
+    setState(() {
+      selectedRole = role;
+      loadChampions();
     });
   }
 
   @override
   void dispose() {
-    // N'oubliez pas de disposer le TextEditingController lorsque le widget est disposé
+    _searchController.removeListener(_onSearchChanged);
     _searchController.dispose();
+    _debounce?.cancel();
     super.dispose();
-  }
-
-  void _filterChampionsByName() {
-    String query = _searchController.text.toLowerCase();
-    setState(() {
-      filteredChampions = champions.where((champion) {
-        return champion.name.toLowerCase().contains(query);
-      }).toList();
-    });
-  }
-
-  void onSort(int columnIndex, bool ascending) {
-    List<Champion> tempSorted = List.from(filteredChampions);
-    if (columnIndex == 0) {
-      tempSorted.sort((a, b) => compareString(ascending, a.name, b.name));
-    } else if (columnIndex == 1) {
-      tempSorted.sort((a, b) => compareString(ascending, a.winRate, b.winRate));
-    } else if (columnIndex == 2) {
-      tempSorted.sort((a, b) => compareString(ascending, a.banRate, b.banRate));
-    } else if (columnIndex == 3) {
-      tempSorted.sort((a, b) => compareNumber(ascending, a.matches, b.matches));
-    }
-    setState(() {
-      sortColumnIndex = columnIndex;
-      isAscending = ascending;
-      filteredChampions = tempSorted; // Ne pas limiter la liste ici
-    });
   }
 
   List<Champion> getVisibleChampions() {
     return filteredChampions.take(8).toList();
-  }
-
-  int compareString(bool ascending, String value1, String value2) {
-    return ascending ? value1.compareTo(value2) : value2.compareTo(value1);
-  }
-
-  int compareNumber(bool ascending, String value1, String value2) {
-    int number1 = int.parse(value1.replaceAll(',', ''));
-    int number2 = int.parse(value2.replaceAll(',', ''));
-    return ascending ? number1.compareTo(number2) : number2.compareTo(number1);
-  }
-
-  void filterChampions(String role) {
-    List<Champion> tempFiltered = role == 'All'
-        ? champions
-        : champions.where((champion) => champion.role == role).toList();
-
-    setState(() {
-      selectedRole = role;
-      filteredChampions = tempFiltered; // Ne pas limiter la liste ici
-    });
   }
 
   @override
@@ -163,8 +169,7 @@ class _ChampionsPageState extends State<ChampionsPage> {
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/finvid2.png'),
-            fit: BoxFit
-                .cover, // Couvre toute la zone du Container sans déformer l'image.
+            fit: BoxFit.cover,
           ),
         ),
         child: isLoading
@@ -172,8 +177,7 @@ class _ChampionsPageState extends State<ChampionsPage> {
                 child: AnimatedOpacity(
                   opacity: _opacity,
                   duration: Duration(milliseconds: 500),
-                  child: Image.asset(
-                      'assets/logo.jpg'), // Assurez-vous que cet asset est ajouté à votre projet
+                  child: Image.asset('assets/logo.jpg'),
                 ),
               )
             : Column(
@@ -206,7 +210,6 @@ class _ChampionsPageState extends State<ChampionsPage> {
                                         (role == 'ALL' ? 'All' : role)
                                     ? AppColors.back
                                     : Colors.transparent,
-                                // Change background color if selected
                                 borderRadius: BorderRadius.circular(4.0),
                               ),
                               child: SvgPicture.asset(
@@ -216,7 +219,7 @@ class _ChampionsPageState extends State<ChampionsPage> {
                                 color: selectedRole ==
                                         (role == 'ALL' ? 'All' : role)
                                     ? AppColors.front
-                                    : null, // Change icon color if selected
+                                    : null,
                               ),
                             ),
                           ),
@@ -242,29 +245,21 @@ class _ChampionsPageState extends State<ChampionsPage> {
                       child: SingleChildScrollView(
                         scrollDirection: Axis.horizontal,
                         child: Container(
-                          width: 1500, // Définir la largeur fixe ici
+                          width: 1500,
                           decoration: BoxDecoration(
                             color: AppColors.back.withOpacity(0.7),
-                            // Ici, '0.7' est l'opacité du fond blanc. Vous pouvez ajuster cette valeur entre 0.0 et 1.0.
                             borderRadius: BorderRadius.circular(20),
-                            //border: Border.all(
-                            //width: 2, color: AppColors.front),
                           ),
-
                           child: DataTable(
                             dataRowHeight: 60.0,
-
                             sortAscending: isAscending,
                             sortColumnIndex: sortColumnIndex,
                             columnSpacing: 200,
-                            // Ajustez l'espacement si nécessaire
                             horizontalMargin: 10,
-                            // Ajustez les marges si nécessaire
                             columns: <DataColumn>[
                               DataColumn(
                                 label: Container(
-                                  width:
-                                      200, // Largeur fixe pour la colonne "Champion"
+                                  width: 200,
                                   child: Text('Champion',
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold)),
@@ -273,8 +268,7 @@ class _ChampionsPageState extends State<ChampionsPage> {
                               ),
                               DataColumn(
                                 label: Container(
-                                  width:
-                                      100, // Largeur fixe pour la colonne "Win Rate"
+                                  width: 100,
                                   child: Text('Win Rate',
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold)),
@@ -283,8 +277,7 @@ class _ChampionsPageState extends State<ChampionsPage> {
                               ),
                               DataColumn(
                                 label: Container(
-                                  width:
-                                      100, // Largeur fixe pour la colonne "Ban Rate"
+                                  width: 100,
                                   child: Text('Ban Rate',
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold)),
@@ -293,8 +286,7 @@ class _ChampionsPageState extends State<ChampionsPage> {
                               ),
                               DataColumn(
                                 label: Container(
-                                  width:
-                                      100, // Largeur fixe pour la colonne "Matches"
+                                  width: 100,
                                   child: Text('Matches',
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold)),
@@ -303,8 +295,7 @@ class _ChampionsPageState extends State<ChampionsPage> {
                               ),
                               DataColumn(
                                 label: Container(
-                                  width:
-                                      100, // Largeur fixe pour la colonne "Role"
+                                  width: 100,
                                   child: Text('Role',
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold)),
@@ -357,6 +348,6 @@ class _ChampionsPageState extends State<ChampionsPage> {
 }
 
 class AppColors {
-  static const Color back = Color(0xFF25232A); // Plus sombre
-  static const Color front = Color(0xFFd0bcff); // Plus sombre
+  static const Color back = Color(0xFF25232A);
+  static const Color front = Color(0xFFd0bcff);
 }
