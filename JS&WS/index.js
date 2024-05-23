@@ -66,7 +66,7 @@ router.get('/tierlist', async (ctx, next) => {
 });
 
 const sortByWinRate = R.sortBy(R.compose(
-  R.flip(parseFloat),
+  parseFloat,
   R.replace('%', ''),
   R.prop('Win rate')
 ));
