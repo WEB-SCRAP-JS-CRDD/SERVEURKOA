@@ -16,7 +16,7 @@ Ce projet à pour but de nous familiariser avec l'outils Flutter, le language da
 Flutter est un cadre open source développé et pris en charge par Google. Souvent utilisé pour créer l'interface utilisateur (UI) d'une application pour plusieurs plateformes avec une seule base de code (et non deux comme HTML/CSS).
 En terme de Webscraping nous avons utilisé du Python pour avoir un résultat sous format Json puis afficher ces données sur le dashboard.
 
-Une des dernière nouveauté recemment ajouter est le framework Koa et Koa-router pour créer un serveur web réactif. Le serveur est conçu pour gérer les requêtes HTTP pour un ensemble de données de statistiques sur les champions, permettant de filtrer, trier et récupérer des données spécifiques.
+Une des dernières nouveautés récemment ajoutée est le framework Koa et Koa-router pour créer un serveur web réactif. Le serveur est conçu pour gérer les requêtes HTTP pour un ensemble de données de statistiques sur les champions, permettant de filtrer, trier et récupérer des données spécifiques.
 
 ### 🧑‍🔧 Dépannage :
 
