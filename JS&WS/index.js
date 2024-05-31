@@ -1,8 +1,3 @@
-// npm init -y
-// npm install koa koa-router
-
-// Ces commandes doivent être exécutées dans le terminal avant de lancer le serveur
-
 const Koa = require('koa');
 const Router = require('koa-router');
 const fs = require('fs');
